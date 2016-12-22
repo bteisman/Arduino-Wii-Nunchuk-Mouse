@@ -8,6 +8,7 @@ Python file created by Ben Teisman
 
 To setup and use:
   1. Download Arduino code editor and upload ArduinoNunchukBoard.ino to your Arduino
+  2. Download pyserial. sudo pip install pyserial
   2. Check port of current Arduino and update port variable in python file (dashes in code to help find section)
   3. Change range of computer screen if necessary in python file (dashes in code to help find section)
   4. Locate where files were downloaded in terminal and type python nunchuk.py to get started
