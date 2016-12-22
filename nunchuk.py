@@ -50,7 +50,9 @@ try:
     sensitivity = input("Sensitivity(1-5): ")
 except:
     sensitivity = 1
-if sensitivity != 1 and sensitivity != 2 and sensitivity != 3 and sensitivity != 4 and sensitivity != 5:
+if sensitivity > 5:
+    sensitivity = 5
+if sensitivity < 0:
     sensitivity = 1
 print ""
 print "- If error occurs, please restart"
